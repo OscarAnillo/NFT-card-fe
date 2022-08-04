@@ -6,10 +6,11 @@
 }
 
 .App {
-  text-align: center;
+  text-align: left;
   height: 100vh;
   background: hsl(217, 54%, 11%);
   position: relative;
+  font-family: 'Outfit', sans-serif;
 }
 
 img {
@@ -17,7 +18,7 @@ img {
 }
 
 .card {
-  border: 1px solid red;
+  background: hsl(216, 50%, 16%);
   border-radius: 10px;
   width: 90%;
   margin: auto;
@@ -35,4 +36,11 @@ img {
 
 .img-pic {
   border-radius: 10px;
+}
+
+.text .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
