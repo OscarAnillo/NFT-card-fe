@@ -38,9 +38,35 @@ img {
   border-radius: 10px;
 }
 
+.text h2 {
+  color: #fff;
+  padding: .6em 0;
+  font-weight: 600;
+}
+.text p {
+  padding-bottom: 1em;
+  font-size: 18px;
+  line-height: 25px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
 .text .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 1em;
+}
 
+.eth {
+  color: hsl(178, 100%, 50%);
+  margin-left: .5em;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.days {
+  padding-left: .5em;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
 }
