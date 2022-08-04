@@ -21,7 +21,6 @@ img {
   border-radius: 10px;
   width: 90%;
   margin: auto;
-  height: 300px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -31,8 +30,9 @@ img {
 .card .container {
   width: 90%;
   margin: 1em auto;
-  border: 1px solid red;
-  height: 250px;
+  /* border: 1px solid red; */
+}
 
-
+.img-pic {
+  border-radius: 10px;
 }
